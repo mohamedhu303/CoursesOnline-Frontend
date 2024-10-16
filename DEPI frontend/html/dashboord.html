@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="../media/favicon.ico">
+
+    <!-- JS Scripts -->
+    <script src="../js/fetch.js"></script>
+    <script src="../js/elements.js"></script>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+    <!-- Fetch header -->
+    <div id="header"></div>
+    <a id="main"></a>
+    <br><br><br>
+
+
+    <div class="col-9 ms-5 p-3">
+        <div class="title">
+            <h1 class="ps-0">Dashboard</h1>
+            <button class="logout p-3" type="button"><a href="">Log out</a></button>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class=" data col-9 ms-5 p-3">
+            <div class="img me-5">
+                <img src="../media/WhatsApp Image 2024-09-24 at 15.34.36_8207c24d.jpg" alt="Error">
+            </div>
+
+            <div class="details ms-5">
+                <div class="name">
+                    <div class="field me-4">
+                        <label for="fname">First Name</label><br>
+                        <input type="text" name="fname" id="fname" style="height: 30px;">
+                    </div>
+
+                    <div class="field">
+                        <label for="fname">Last Name</label><br>
+                        <input type="text" name="lname" id="lname" style="height: 30px;">
+                    </div>
+                </div>
+                <br>
+
+                <div class="label">
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email" style="height: 30px;">
+                </div>
+                <br>
+                <div class="label">
+                    <label for="password">Password</label><br>
+                    <div class="password">
+                        <input type="password" name="password" id="password"  min="8" max="30" style="height: 30px;">
+                        <span>Change</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <!-- Fetch footer -->
+    <div id="footer"></div>
+    <script src="../js/elements.js"></script>
+
+
+</body>
+
+</html>
