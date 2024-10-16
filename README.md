@@ -15,5 +15,4 @@ The E-Learning Platform is an online learning management system that allows user
 - **Responsive Design**: Accessible on both desktop and mobile devices.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript (React.js)
-
+- **Frontend**: HTML, CSS, JavaScript
